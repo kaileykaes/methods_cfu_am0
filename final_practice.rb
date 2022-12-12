@@ -1,9 +1,9 @@
 # # Defining Our Own Methods
 # # 1: Write a method named greeting that prints out a general greeting to someone
-# def greeting
-#     p 'Good morning starshine, the earth says hello!'
-# end 
-# p greeting
+def greeting
+    p 'Good morning starshine, the earth says hello!'
+end 
+p greeting
 
 # # What is the return value of your method?
 # #   The return value is the string 'Good morning starshine, the earth says hello!'
@@ -14,11 +14,11 @@
 
 # #2: Write a method named custom_greeting that prints out a greeting WITH a specific name.
 
-# def custom_greeting(name)
-#    puts "Good morning, #{name}!"
-# end 
+def custom_greeting(name)
+   puts "Good morning, #{name}!"
+end 
 
-# puts custom_greeting('James_the_cat')
+puts custom_greeting('James_the_cat')
 
 
 
@@ -33,11 +33,11 @@
 
 # #3: Write a method named square that takes in one number, and returns the square of that number
 
-# def square(num)
-#     num**2
-# end
+def square(num)
+    num**2
+end
 
-# p square(5)
+p square(5)
 
 
 
