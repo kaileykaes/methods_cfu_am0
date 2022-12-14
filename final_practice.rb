@@ -3,7 +3,7 @@
 def greeting
     p 'Good morning starshine, the earth says hello!'
 end 
-p greeting
+greeting
 
 # # What is the return value of your method?
 # #   The return value is the string 'Good morning starshine, the earth says hello!'
@@ -18,7 +18,7 @@ def custom_greeting(name)
    puts "Good morning, #{name}!"
 end 
 
-puts custom_greeting('James_the_cat')
+custom_greeting('James_the_cat')
 
 
 
@@ -55,10 +55,11 @@ p square(5)
 # #4: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and print outs the sentence of the entire string
 
 def greet_person(first_name, mid_name, last_name)
-    p "Hey! You're almost there, #{first_name},#{mid_name} #{last_name}!"
+    p "Hey! You're almost there, #{first_name} #{mid_name} #{last_name}!"
 end
 
-# greet_person('Kailey', 'Irene', 'Kaes')
+greet_person('Kailey', 'Irene', 'Kaes')
+
 # # What is the return value of your method?
 # # The string "Hey! You're almost there, Kailey,Irene Kaes!"
 # # How many arguments did you pass your method?
